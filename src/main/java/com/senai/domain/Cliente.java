@@ -38,6 +38,10 @@ public class Cliente implements Serializable{
 
 	private List<Endereco> enderecos;
 	
+	public double somar(double num1, double num2) {
+		return num1 + num2;
+	}
+	
 	public Cliente() {
 	}
 
