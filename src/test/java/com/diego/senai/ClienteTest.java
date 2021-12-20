@@ -1,5 +1,7 @@
 package com.diego.senai;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.senai.repositories.ClienteRepository;
 
 @SpringBootTest
-public class ClientTest {
+public class ClienteTest {
 	
 	@Autowired
 	ClienteRepository clienteRepo;
