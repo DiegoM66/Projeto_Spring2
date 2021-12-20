@@ -51,5 +51,31 @@ public class ClientTest {
 		double soma = cliente.somar(num1 + num2);
 		assertEquals(15, soma);
 	}
+	@Test
+    public void subtrair() {
+        double num1 = 20.0;
+        double num2 = 1.0;
+        Cliente cliente = new Cliente();
+        double subtração = cliente.subtrair(num1, num2);
+        assertEquals(19, subtração);
+    }
+
+    @Test
+    public void multiplicar() {
+        double num1 = 10.0;
+        double num2 = 20.0;
+        Cliente cliente = new Cliente();
+        double multiplicação = cliente.multiplicar(num1, num2);
+        assertEquals(200, multiplicação);
+    }
+
+    @Test
+    public void dividir() {
+        double num1 = 20.0;
+        double num2 = 5.0;
+        Cliente cliente = new Cliente();
+        double divisão = cliente.dividir(num1, num2);
+        assertEquals(4, divisão);
+    }
 
 }
